@@ -15,3 +15,7 @@ To see it::
 To check all available commands::
 
     nikola help
+
+Github pages::
+    nikola new_post -e
+    nikola github_deploy
