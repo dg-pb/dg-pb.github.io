@@ -6,6 +6,7 @@
 .. link: 
 .. description: 
 .. type: text
+.. has_math: false
 
 Write your post here.
 
