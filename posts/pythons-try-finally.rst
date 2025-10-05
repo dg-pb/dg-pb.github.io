@@ -118,5 +118,5 @@ I would vote for not. Why?
 
 1. Most of languages that faced this issue handled it with linters.
 2. Design, although has not been frequently used, is elegant and logical.
-3. Faulty usage can be handled by stronger emphasis and education.
+3. Faulty usage can be addressed by stronger emphasis and education.
 4. It is possible that with more education and time it will be picked up and used more often. In the right way.
