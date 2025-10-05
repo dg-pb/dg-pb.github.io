@@ -19,7 +19,7 @@ And the last new update regarding this is that issuing a warning might be proble
 
 This post is meant to explain how current mechanics work in as simple as possible manner.
 
-In short, I have found that things are not as complicated or even as tricky as the impression that I got by reading a PEP and discourse conversations.
+In short, I have found that things are not as complicated or even as tricky in comparison to the impression that I got by reading a PEP and discourse conversations.
 
 And, in my opinion, the issue is rather the fact that some nuances are rarely needed.
 Thus forgotten or never understood in the first place.
