@@ -128,7 +128,7 @@ I would vote for not. Why?
 
 Also, big part of motivation in PEP601 for "severe" treatment is easily refuted:
 
-1. Zen of Python applications can be refuted using other lines of the same Zen.
+1. Zen of Python applications can be offset using similar number of other lines of the same Zen.
 2. List of programming languages that deal with it were used as supporting evidence, while 3/4 of those languages left it to be handled by linters.
 3. Making code more clear and similar only applies given the ignorance about 2 simple rules of ``finally`` statement.
 
