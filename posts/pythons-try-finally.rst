@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-So there is an ongoing process regarding disallowing / forbidding ``return/break/continue`` that exit a finally block:
+So there is an ongoing process regarding disallowing / forbidding ``return/break/continue`` that exit ``finally`` block silencing thrown error:
 
 1. `Initial rejected PEP601 <https://peps.python.org/pep-0601/>`__.
 2. `Accepted PEP765 <https://peps.python.org/pep-0765/>`__.
