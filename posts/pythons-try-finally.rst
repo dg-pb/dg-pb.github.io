@@ -75,7 +75,7 @@ There are only 2 rules:
 
 And that is pretty much all that there is.
 And yes, ``finally`` can be expressed using ``except BaseException``.
-But once ``finally`` is understood, ``except BaseException`` starts feeling like a hack to do what finally does, not the other way round.
+But once ``finally`` is understood, ``except BaseException`` starts feeling like a hack to do what ``finally`` does, not the other way round.
 See below.
 
 So does it need to be deprecated? Or is even issuing a warning needed?
