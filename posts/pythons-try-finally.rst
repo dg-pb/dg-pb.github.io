@@ -82,16 +82,16 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
             try:
                 ...
             finally:
-                some_dode = 1
+                some_code = 1
 
         else:
             try:
                 ...
             except BaseException:
-                some_dode = 1
+                some_code = 1
                 raise
             else:
-                some_dode = 1
+                some_code = 1
 
 
     def equivalence_no_2():
@@ -101,7 +101,8 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
                 try:
                     ...
                 finally:
-                    some_dode = 1
+
+                    some_code = 1
                     break
 
         else:
@@ -110,7 +111,8 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
                     ...
                 except BaseException:
                     pass
-                some_dode = 1
+
+                some_code = 1
                 break
 
 
