@@ -19,9 +19,9 @@ And the last new update regarding this is that issuing a warning might be proble
 
 This post is rather meant to explain how current mechanics work in as simple as possible manner.
 
-So in short, things are simple.
+So in short, things are not as complicated or even tricky as the impression that I got by reading a PEP and discourse conversations.
 
-And, in my opinion, the issue is not that it is complicated, but rather the fact that some nuances are almost never needed, thus forgotten or never understood.
+And, in my opinion, the issue is not that it is complicated, but rather the fact that some nuances are almost never needed, thus forgotten or never understood in the first place.
 
 There are only 2 rules:
 
