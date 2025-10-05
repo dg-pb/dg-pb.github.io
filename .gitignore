@@ -7,6 +7,7 @@ __pycache__/
 __pycache__
 cache
 .doit.db
+.doit.db-shm
 output
 
 # C extensions
