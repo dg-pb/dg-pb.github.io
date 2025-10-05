@@ -132,5 +132,5 @@ Also, big part of motivation in PEP601 for "severe" treatment is easily refuted:
 2. List of programming languages that deal with it were used as supporting evidence, while 3/4 of those languages left it to be handled by linters.
 3. Making code more clear and similar only applies given the ignorance about 2 simple rules of ``finally`` statement.
 
-There is no denial that there are valid reasons why this got so much attention.
+There is no denial that there are valid reasons why this got so much attention - people have been making mistake and this hasn't been addressed for a long time - thus, there is some damage.
 But I haven't yet seen any convincing evidence of why education and linter handling is insufficient.
