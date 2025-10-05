@@ -42,10 +42,15 @@ There are only 2 rules:
                 will always be the last one
                 executed.
         """
-        try:
-            return 1
-        finally:
-            return 2
+        while 1:
+            try:
+                try:
+                    return 0
+                finally:
+                    return 1
+            finally:
+                break
+        return 2
 
     @lambda f: print(f())   # 6 (no error)
     def finally2():
@@ -59,7 +64,7 @@ There are only 2 rules:
         """
         for i in range(10):
             try:
-                raise ValueError
+                1/0
             finally:
                 if i > 5:
                     break
@@ -101,7 +106,6 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
                 try:
                     ...
                 finally:
-
                     some_code = 1
                     break
 
@@ -111,7 +115,6 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
                     ...
                 except BaseException:
                     pass
-
                 some_code = 1
                 break
 
