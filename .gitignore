@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Nikola
+__pycache__
+cache
+.doit.db
+output
+
 # C extensions
 *.so
 
