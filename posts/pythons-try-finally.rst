@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-So there is an ongoing process regarding disallowing / forbidding `return/break/continue` that exit a finally block:
+So there is an ongoing process regarding disallowing / forbidding ``return/break/continue`` that exit a finally block:
 
 1. `Initial rejected PEP601 <https://peps.python.org/pep-0601/>`__.
 2. `Accepted PEP765 <https://peps.python.org/pep-0765/>`__.
@@ -77,7 +77,7 @@ And that is pretty much all that there is.
 
 
 One more thing.
-Functionality of `finally` statement can be replicated using `except`:
+Functionality of ``finally`` statement can be replicated using ``except``:
 
 .. code-block:: python
    :number-lines:
@@ -130,7 +130,7 @@ Also, big part of motivation in PEP601 for "severe" treatment is easily refuted:
 
 1. Zen of Python applications can be refuted using other lines of the same Zen.
 2. List of programming languages that deal with it were used as supporting evidence, while the fact that 3/4 of those languages left it to be handled by linters.
-3. Making code more clear and similar only applies given the ignorance about 2 simple rules of `finally` statement.
+3. Making code more clear and similar only applies given the ignorance about 2 simple rules of ``finally`` statement.
 
 There is no denial that there are valid reasons why this got so much attention.
 But I haven't yet seen any convincing evidence of why education and linter handling is insufficient.
