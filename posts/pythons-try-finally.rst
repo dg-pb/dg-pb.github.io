@@ -11,10 +11,10 @@ So there is an ongoing process regarding disallowing / forbidding return/break/c
 
 `See the most recent accepted PEP regarding this <https://peps.python.org/pep-0765/>`__
 
-And the last new is that issuing warning is causing some issues and there might be the case that it either:
+And the last new update regarding this is that issuing a warning might be problematic and there might be the case that either:
 
-1. needs to be deprecated
-2. rolled back to usage without warning and let linters handle it
+1. That sort of usage needs to be deprecated, or
+2. warning needs to be rolled back and let linters handle it.
 
 
 This post is rather meant to explain how current mechanics work in as simple as possible manner.
@@ -46,8 +46,9 @@ There are only 2 rules:
     # @lambda f: print(f())   # 6 (no error)
     def finally2():
         """
-        NOTE:Rule No.2:xhttp://{STACKQ}/8574856/python-try-finally
-            If the finally clause executes a return, break or continue statement,
+        NOTE:Rule No.2:
+            If the finally clause executes a return,
+                break or continue statement,
                 that jumps out of the finally clause,
                 the saved exception is discarded.
         """
@@ -71,7 +72,7 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
    :number-lines:
 
     def equivalence_no_1():
-        # EQUIVALENCE WITHOUT return/continue/break
+        # WITHOUT return/continue/break
         if 'finally':
             try:
                 ...
@@ -89,7 +90,7 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
 
 
     def equivalence_no_2():
-        # EQUIVALENCE WITH return/continue/break
+        # WITH return/continue/break
         if 'finally':
             while 1:
                 try:
@@ -110,6 +111,7 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
 
 So does it need to be deprecated? Or is even issuing a warning needed?
 I would vote for not. Why?
+
 1. Most of languages that faced this issue handled it with linters.
 2. Design, although has not been frequently used, is elegant and logical.
 3. Faulty usage can be handled by stronger emphasis and education.
