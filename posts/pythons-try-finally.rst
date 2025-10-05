@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-So there is an ongoing process regarding disallowing / forbidding return/break/continue that exit a finally block:
+So there is an ongoing process regarding disallowing / forbidding `return/break/continue` that exit a finally block:
 
 1. `Initial rejected PEP601 <https://peps.python.org/pep-0601/>`__.
 2. `Accepted PEP765 <https://peps.python.org/pep-0765/>`__.
@@ -73,33 +73,16 @@ There are only 2 rules:
         return i
 
 
-And that is pretty much it.
-Everything else is a natural consequence.
+And that is pretty much all that there is.
 
-Now regarding the issue at hand, finally statement can be seen as a shortcut for 2 different cases:
+
+One more thing.
+Functionality of `finally` statement can be replicated using `except`:
 
 .. code-block:: python
    :number-lines:
 
-    def equivalence_no_1():
-        # WITHOUT return/continue/break
-        if 'finally':
-            try:
-                ...
-            finally:
-                some_code = 1
-
-        else:
-            try:
-                ...
-            except BaseException:
-                some_code = 1
-                raise
-            else:
-                some_code = 1
-
-
-    def equivalence_no_2():
+    def equivalence_no1():
         # WITH return/continue/break
         if 'finally':
             while 1:
@@ -118,6 +101,23 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
                 some_code = 1
                 break
 
+    def equivalence_no2():
+        # WITHOUT return/continue/break
+        if 'finally':
+            try:
+                ...
+            finally:
+                some_code = 1
+
+        else:
+            try:
+                ...
+            except BaseException:
+                some_code = 1
+                raise
+            else:
+                some_code = 1
+
 
 So does it need to be deprecated? Or is even issuing a warning needed?
 I would vote for not. Why?
@@ -125,5 +125,3 @@ I would vote for not. Why?
 1. Design, although has not been frequently used, is elegant and logical.
 2. Faulty usage can be addressed by stronger emphasis and education.
 3. It is possible that with more education and time it will be picked up and used more often. In the right way.
-
-Also, most of languages that faced this issue handled it with linters.
