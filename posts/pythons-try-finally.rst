@@ -38,7 +38,8 @@ There are only 2 rules:
             Since the finally clause always
                 executes, a return statement
                 executed in the finally clause
-                will always be the last one executed.
+                will always be the last one
+                executed.
         """
         try:
             return 1
