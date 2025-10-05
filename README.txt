@@ -18,4 +18,5 @@ To check all available commands::
 
 Github pages::
     nikola new_post -e
+    nikola serve -b
     nikola github_deploy
