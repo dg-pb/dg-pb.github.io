@@ -119,7 +119,8 @@ Now regarding the issue at hand, finally statement can be seen as a shortcut for
 So does it need to be deprecated? Or is even issuing a warning needed?
 I would vote for not. Why?
 
-1. Most of languages that faced this issue handled it with linters.
-2. Design, although has not been frequently used, is elegant and logical.
-3. Faulty usage can be addressed by stronger emphasis and education.
-4. It is possible that with more education and time it will be picked up and used more often. In the right way.
+1. Design, although has not been frequently used, is elegant and logical.
+2. Faulty usage can be addressed by stronger emphasis and education.
+3. It is possible that with more education and time it will be picked up and used more often. In the right way.
+
+Also, most of languages that faced this issue handled it with linters.
