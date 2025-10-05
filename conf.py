@@ -1023,7 +1023,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 #   disqus, discourse, facebook, intensedebate, isso, muut, commento,
 #   utterances
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "discourse"
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
