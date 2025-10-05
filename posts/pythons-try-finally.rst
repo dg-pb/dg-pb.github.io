@@ -74,63 +74,14 @@ There are only 2 rules:
 
 
 And that is pretty much all that there is.
-
-
-One more thing.
-Functionality of ``finally`` statement can be replicated using ``except``:
-
-.. code-block:: python
-   :number-lines:
-
-    def equivalence_no1():
-        # WITH return/continue/break
-        if 'finally':
-            while 1:
-                try:
-                    ...
-                finally:
-                    some_code = 1
-                    break
-
-        else:
-            while 1:
-                try:
-                    ...
-                except BaseException:
-                    pass
-                some_code = 1
-                break
-
-    def equivalence_no2():
-        # WITHOUT return/continue/break
-        if 'finally':
-            try:
-                ...
-            finally:
-                some_code = 1
-
-        else:
-            try:
-                ...
-            except BaseException:
-                some_code = 1
-                raise
-            else:
-                some_code = 1
-
+And yes, ``finally`` can be expressed using ``except BaseException``.
+But once ``finally`` is understood, ``except BaseException`` starts feeling like a hack to do what finally does, not the other way round.
 
 So does it need to be deprecated? Or is even issuing a warning needed?
-I would vote for not. Why?
 
 1. Design, although has not been frequently used, is elegant and logical.
 2. Faulty usage can be addressed by stronger emphasis and education.
 3. It is possible that with more education and time it will be picked up and used more often. In the right way.
-
-Also, big part of motivation in PEP601 for "severe" treatment is easily refuted:
-
-1. Zen of Python applications can be offset using similar number of other lines of the same Zen.
-2. List of programming languages that deal with it were used as supporting evidence, while 3/4 of those languages left it to be handled by linters.
-3. Making code more clear and similar only applies given the ignorance about 2 simple rules of ``finally`` statement.
 
 There is no denial that there are valid reasons why this got so much attention - people have been making mistake and this hasn't been addressed for a long time - thus, there is some damage.
 But I haven't yet seen any convincing evidence of why education and linter handling is insufficient.
