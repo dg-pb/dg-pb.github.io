@@ -17,11 +17,12 @@ And the last new update regarding this is that issuing a warning might be proble
 1. That sort of usage needs to be deprecated (PEP601 accepted), or
 2. PEP765 needs to be rolled back and let linters handle it.
 
-This post is rather meant to explain how current mechanics work in as simple as possible manner.
+This post is meant to explain how current mechanics work in as simple as possible manner.
 
-So in short, things are not as complicated or even tricky as the impression that I got by reading a PEP and discourse conversations.
+In short, I have found that things are not as complicated or even as tricky as the impression that I got by reading a PEP and discourse conversations.
 
-And, in my opinion, the issue is not that it is complicated, but rather the fact that some nuances are almost never needed, thus forgotten or never understood in the first place.
+And, in my opinion, the issue is rather the fact that some nuances are rarely needed.
+Thus forgotten or never understood in the first place.
 
 There are only 2 rules:
 
