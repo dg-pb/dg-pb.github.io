@@ -12,6 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://dg-pb.github.io/">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/feature-test/" type="text/html">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -86,8 +87,8 @@
             </header><div class="e-content entry-content">
                     <p>Write your post here.</p>
 <div class="code"><table class="codetable"><tr>
-<td class="linenos linenodiv"><a href="posts/feature-test/#rest_code_7b56f0d9650d466fad6145cc83ab01d1-1"><code data-line-number="1"></code></a></td>
-<td class="code"><code><a id="rest_code_7b56f0d9650d466fad6145cc83ab01d1-1" name="rest_code_7b56f0d9650d466fad6145cc83ab01d1-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Our virtues and our failings are inseparable"</span><span class="p">)</span>
+<td class="linenos linenodiv"><a href="posts/feature-test/#rest_code_b2f19fd8b41847108effb0d2dcccd85a-1"><code data-line-number="1"></code></a></td>
+<td class="code"><code><a id="rest_code_b2f19fd8b41847108effb0d2dcccd85a-1" name="rest_code_b2f19fd8b41847108effb0d2dcccd85a-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Our virtues and our failings are inseparable"</span><span class="p">)</span>
 </code></td>
 </tr></table></div>
 <div class="math">
@@ -135,11 +136,22 @@ and build a site using it. Congratulations!</p>
 
 
     
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        
+delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+]
 
-
-        <!--End of body content-->
-
-        <footer id="footer">
+                    }
+                );
+            </script><!--End of body content--><footer id="footer">
             Contents © 2025         <a href="mailto:digpob@gmail.com">dg-pb</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
             
