@@ -7,19 +7,35 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://dg-pb.github.io/</loc>
-  <lastmod>2025-10-05T06:48:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/2012/</loc>
   <lastmod>2025-10-05T06:39:00Z</lastmod>
  </url>
  <url>
+  <loc>https://dg-pb.github.io/2025/</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://dg-pb.github.io/archive.html</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dg-pb.github.io/authors/</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dg-pb.github.io/authors/dg-pb/</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dg-pb.github.io/authors/roberto-alsina/</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/categories/</loc>
-  <lastmod>2025-10-05T06:48:00Z</lastmod>
+  <lastmod>2025-10-05T06:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/categories/blog/</loc>
@@ -59,7 +75,7 @@
  </url>
  <url>
   <loc>https://dg-pb.github.io/listings/hello.py.html</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/pages/about-nikola/</loc>
@@ -116,6 +132,10 @@
  <url>
   <loc>https://dg-pb.github.io/pages/theming/</loc>
   <lastmod>2025-10-05T06:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dg-pb.github.io/posts/feature-test/</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/posts/welcome-to-nikola/</loc>

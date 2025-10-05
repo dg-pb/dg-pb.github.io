@@ -6,6 +6,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://dg-pb.github.io/authors/dg-pb.xml</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://dg-pb.github.io/authors/roberto-alsina.xml</loc>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://dg-pb.github.io/categories/blog.xml</loc>
   <lastmod>2025-10-05T06:51:00Z</lastmod>
  </sitemap>
@@ -27,18 +35,18 @@
  </sitemap>
  <sitemap>
   <loc>https://dg-pb.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://dg-pb.github.io/galleries/rss.xml</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://dg-pb.github.io/rss.xml</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://dg-pb.github.io/sitemap.xml</loc>
-  <lastmod>2025-10-05T06:51:00Z</lastmod>
+  <lastmod>2025-10-05T07:00:00Z</lastmod>
  </sitemap>
 </sitemapindex>
