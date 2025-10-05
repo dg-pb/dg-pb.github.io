@@ -6,6 +6,7 @@
 .. link: https://getnikola.com/
 .. description:
 .. category: nikola
+.. has_math: true
 
 .. figure:: https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg
    :target: https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1
@@ -24,3 +25,7 @@ Next steps:
 * :doc:`See a demo of a longer text <dr-nikolas-vendetta>`
 
 Send feedback to info@getnikola.com!
+
+.. math::
+
+   \int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C

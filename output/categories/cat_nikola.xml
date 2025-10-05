@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Things I Share (Posts about nikola)</title><link>https://dg-pb.github.io/</link><description></description><atom:link href="https://dg-pb.github.io/categories/cat_nikola.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:digpob@gmail.com"&gt;dg-pb&lt;/a&gt; </copyright><lastBuildDate>Sun, 05 Oct 2025 06:51:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to Nikola</title><link>https://dg-pb.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;figure&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Things I Share (Posts about nikola)</title><link>https://dg-pb.github.io/</link><description></description><atom:link href="https://dg-pb.github.io/categories/cat_nikola.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:digpob@gmail.com"&gt;dg-pb&lt;/a&gt; </copyright><lastBuildDate>Sun, 05 Oct 2025 08:46:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to Nikola</title><link>https://dg-pb.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;figure&gt;
 &lt;a class="reference external image-reference" href="https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1"&gt;
 &lt;img alt="Nikola Tesla Corner by nicwest, on Flickr" class="thumbnail" src="https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg"&gt;
 &lt;/a&gt;
@@ -14,4 +14,9 @@ and build a site using it. Congratulations!&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://dg-pb.github.io/pages/listings-demo/"&gt;See a demo listing&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://dg-pb.github.io/pages/dr-nikolas-vendetta/"&gt;See a demo of a longer text&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Send feedback to &lt;a class="reference external" href="mailto:info@getnikola.com"&gt;info@getnikola.com&lt;/a&gt;!&lt;/p&gt;</description><category>blog</category><category>demo</category><category>nikola</category><category>python</category><guid>https://dg-pb.github.io/posts/welcome-to-nikola/</guid><pubDate>Sat, 31 Mar 2012 02:00:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Send feedback to &lt;a class="reference external" href="mailto:info@getnikola.com"&gt;info@getnikola.com&lt;/a&gt;!&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C
+\end{equation*}
+&lt;/div&gt;</description><category>blog</category><category>demo</category><category>nikola</category><category>python</category><guid>https://dg-pb.github.io/posts/welcome-to-nikola/</guid><pubDate>Sat, 31 Mar 2012 02:00:00 GMT</pubDate></item></channel></rss>

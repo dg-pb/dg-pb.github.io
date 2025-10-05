@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://dg-pb.github.io/</loc>
-  <lastmod>2025-10-05T07:05:00Z</lastmod>
+  <lastmod>2025-10-05T08:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/2012/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://dg-pb.github.io/archive.html</loc>
-  <lastmod>2025-10-05T07:12:00Z</lastmod>
+  <lastmod>2025-10-05T08:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/authors/</loc>
@@ -136,6 +136,10 @@
  <url>
   <loc>https://dg-pb.github.io/posts/feature-test/</loc>
   <lastmod>2025-10-05T07:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dg-pb.github.io/posts/pythons-try-finally/</loc>
+  <lastmod>2025-10-05T08:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://dg-pb.github.io/posts/welcome-to-nikola/</loc>
