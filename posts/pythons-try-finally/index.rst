@@ -32,10 +32,12 @@ There are only 2 rules:
     def finally1():
         """
         NOTE:Rule No.1:
-            The return value of a function is determined
-                by the last return statement executed.
-            Since the finally clause always executes,
-                a return statement executed in the finally clause
+            The return value of a function is
+                determined by the last return
+                statement executed.
+            Since the finally clause always
+                executes, a return statement
+                executed in the finally clause
                 will always be the last one executed.
         """
         try:
@@ -47,10 +49,11 @@ There are only 2 rules:
     def finally2():
         """
         NOTE:Rule No.2:
-            If the finally clause executes a return,
-                break or continue statement,
-                that jumps out of the finally clause,
-                the saved exception is discarded.
+            If the finally clause executes
+                a return, break or continue
+                statement, that jumps out
+                of the finally clause, the
+                saved exception is discarded.
         """
         for i in range(10):
             try:
