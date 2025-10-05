@@ -1,0 +1,4 @@
+Sitemap: https://dg-pb.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: dg-pb.github.io
