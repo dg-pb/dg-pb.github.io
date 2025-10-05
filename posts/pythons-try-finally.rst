@@ -29,7 +29,7 @@ There are only 2 rules:
 .. code-block:: python
    :number-lines:
 
-    # @lambda f: print(f())  # 2
+    @lambda f: print(f())  # 2
     def finally1():
         """
         NOTE:Rule No.1:
@@ -47,7 +47,7 @@ There are only 2 rules:
         finally:
             return 2
 
-    # @lambda f: print(f())   # 6 (no error)
+    @lambda f: print(f())   # 6 (no error)
     def finally2():
         """
         NOTE:Rule No.2:
