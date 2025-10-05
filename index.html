@@ -101,213 +101,213 @@ Thus forgotten or never understood in the first place.</p>
 <p>There are only 2 rules:</p>
 <div class="code"><table class="codetable">
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-1"><code data-line-number=" 1"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-1" name="rest_code_c3c75fb875784cb688f88c7853acbacd-1"></a> <span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>  <span class="c1"># 2</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-1"><code data-line-number=" 1"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-1" name="rest_code_e6792210d97d4f109e40233a5845b601-1"></a> <span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>  <span class="c1"># 2</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-2"><code data-line-number=" 2"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-2" name="rest_code_c3c75fb875784cb688f88c7853acbacd-2"></a> <span class="k">def</span><span class="w"> </span><span class="nf">finally1</span><span class="p">():</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-2"><code data-line-number=" 2"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-2" name="rest_code_e6792210d97d4f109e40233a5845b601-2"></a> <span class="k">def</span><span class="w"> </span><span class="nf">finally1</span><span class="p">():</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-3"><code data-line-number=" 3"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-3" name="rest_code_c3c75fb875784cb688f88c7853acbacd-3"></a><span class="w">     </span><span class="sd">"""</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-3"><code data-line-number=" 3"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-3" name="rest_code_e6792210d97d4f109e40233a5845b601-3"></a><span class="w">     </span><span class="sd">"""</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-4"><code data-line-number=" 4"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-4" name="rest_code_c3c75fb875784cb688f88c7853acbacd-4"></a><span class="sd">     NOTE:Rule No.1:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-4"><code data-line-number=" 4"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-4" name="rest_code_e6792210d97d4f109e40233a5845b601-4"></a><span class="sd">     NOTE:Rule No.1:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-5"><code data-line-number=" 5"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-5" name="rest_code_c3c75fb875784cb688f88c7853acbacd-5"></a><span class="sd">         The return value of a function is</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-5"><code data-line-number=" 5"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-5" name="rest_code_e6792210d97d4f109e40233a5845b601-5"></a><span class="sd">         The return value of a function is</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-6"><code data-line-number=" 6"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-6" name="rest_code_c3c75fb875784cb688f88c7853acbacd-6"></a><span class="sd">             determined by the last return</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-6"><code data-line-number=" 6"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-6" name="rest_code_e6792210d97d4f109e40233a5845b601-6"></a><span class="sd">             determined by the last return</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-7"><code data-line-number=" 7"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-7" name="rest_code_c3c75fb875784cb688f88c7853acbacd-7"></a><span class="sd">             statement executed.</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-7"><code data-line-number=" 7"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-7" name="rest_code_e6792210d97d4f109e40233a5845b601-7"></a><span class="sd">             statement executed.</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-8"><code data-line-number=" 8"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-8" name="rest_code_c3c75fb875784cb688f88c7853acbacd-8"></a><span class="sd">         Since the finally clause always</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-8"><code data-line-number=" 8"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-8" name="rest_code_e6792210d97d4f109e40233a5845b601-8"></a><span class="sd">         Since the finally clause always</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-9"><code data-line-number=" 9"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-9" name="rest_code_c3c75fb875784cb688f88c7853acbacd-9"></a><span class="sd">             executes, a return statement</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-9"><code data-line-number=" 9"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-9" name="rest_code_e6792210d97d4f109e40233a5845b601-9"></a><span class="sd">             executes, a return statement</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-10"><code data-line-number="10"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-10" name="rest_code_c3c75fb875784cb688f88c7853acbacd-10"></a><span class="sd">             executed in the finally clause</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-10"><code data-line-number="10"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-10" name="rest_code_e6792210d97d4f109e40233a5845b601-10"></a><span class="sd">             executed in the finally clause</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-11"><code data-line-number="11"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-11" name="rest_code_c3c75fb875784cb688f88c7853acbacd-11"></a><span class="sd">             will always be the last one</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-11"><code data-line-number="11"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-11" name="rest_code_e6792210d97d4f109e40233a5845b601-11"></a><span class="sd">             will always be the last one</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-12"><code data-line-number="12"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-12" name="rest_code_c3c75fb875784cb688f88c7853acbacd-12"></a><span class="sd">             executed.</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-12"><code data-line-number="12"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-12" name="rest_code_e6792210d97d4f109e40233a5845b601-12"></a><span class="sd">             executed.</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-13"><code data-line-number="13"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-13" name="rest_code_c3c75fb875784cb688f88c7853acbacd-13"></a><span class="sd">     """</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-13"><code data-line-number="13"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-13" name="rest_code_e6792210d97d4f109e40233a5845b601-13"></a><span class="sd">     """</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-14"><code data-line-number="14"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-14" name="rest_code_c3c75fb875784cb688f88c7853acbacd-14"></a>     <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-14"><code data-line-number="14"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-14" name="rest_code_e6792210d97d4f109e40233a5845b601-14"></a>     <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-15"><code data-line-number="15"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-15" name="rest_code_c3c75fb875784cb688f88c7853acbacd-15"></a>         <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-15"><code data-line-number="15"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-15" name="rest_code_e6792210d97d4f109e40233a5845b601-15"></a>         <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-16"><code data-line-number="16"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-16" name="rest_code_c3c75fb875784cb688f88c7853acbacd-16"></a>             <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-16"><code data-line-number="16"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-16" name="rest_code_e6792210d97d4f109e40233a5845b601-16"></a>             <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-17"><code data-line-number="17"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-17" name="rest_code_c3c75fb875784cb688f88c7853acbacd-17"></a>                 <span class="k">return</span> <span class="mi">0</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-17"><code data-line-number="17"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-17" name="rest_code_e6792210d97d4f109e40233a5845b601-17"></a>                 <span class="k">return</span> <span class="mi">0</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-18"><code data-line-number="18"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-18" name="rest_code_c3c75fb875784cb688f88c7853acbacd-18"></a>             <span class="k">finally</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-18"><code data-line-number="18"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-18" name="rest_code_e6792210d97d4f109e40233a5845b601-18"></a>             <span class="k">finally</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-19"><code data-line-number="19"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-19" name="rest_code_c3c75fb875784cb688f88c7853acbacd-19"></a>                 <span class="k">return</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-19"><code data-line-number="19"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-19" name="rest_code_e6792210d97d4f109e40233a5845b601-19"></a>                 <span class="k">return</span> <span class="mi">1</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-20"><code data-line-number="20"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-20" name="rest_code_c3c75fb875784cb688f88c7853acbacd-20"></a>         <span class="k">finally</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-20"><code data-line-number="20"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-20" name="rest_code_e6792210d97d4f109e40233a5845b601-20"></a>         <span class="k">finally</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-21"><code data-line-number="21"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-21" name="rest_code_c3c75fb875784cb688f88c7853acbacd-21"></a>             <span class="k">break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-21"><code data-line-number="21"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-21" name="rest_code_e6792210d97d4f109e40233a5845b601-21"></a>             <span class="k">break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-22"><code data-line-number="22"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-22" name="rest_code_c3c75fb875784cb688f88c7853acbacd-22"></a>     <span class="k">return</span> <span class="mi">2</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-22"><code data-line-number="22"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-22" name="rest_code_e6792210d97d4f109e40233a5845b601-22"></a>     <span class="k">return</span> <span class="mi">2</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-23"><code data-line-number="23"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-23" name="rest_code_c3c75fb875784cb688f88c7853acbacd-23"></a>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-23"><code data-line-number="23"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-23" name="rest_code_e6792210d97d4f109e40233a5845b601-23"></a>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-24"><code data-line-number="24"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-24" name="rest_code_c3c75fb875784cb688f88c7853acbacd-24"></a> <span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>   <span class="c1"># 6 (no error)</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-24"><code data-line-number="24"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-24" name="rest_code_e6792210d97d4f109e40233a5845b601-24"></a> <span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>   <span class="c1"># 6 (no error)</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-25"><code data-line-number="25"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-25" name="rest_code_c3c75fb875784cb688f88c7853acbacd-25"></a> <span class="k">def</span><span class="w"> </span><span class="nf">finally2</span><span class="p">():</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-25"><code data-line-number="25"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-25" name="rest_code_e6792210d97d4f109e40233a5845b601-25"></a> <span class="k">def</span><span class="w"> </span><span class="nf">finally2</span><span class="p">():</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-26"><code data-line-number="26"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-26" name="rest_code_c3c75fb875784cb688f88c7853acbacd-26"></a><span class="w">     </span><span class="sd">"""</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-26"><code data-line-number="26"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-26" name="rest_code_e6792210d97d4f109e40233a5845b601-26"></a><span class="w">     </span><span class="sd">"""</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-27"><code data-line-number="27"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-27" name="rest_code_c3c75fb875784cb688f88c7853acbacd-27"></a><span class="sd">     NOTE:Rule No.2:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-27"><code data-line-number="27"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-27" name="rest_code_e6792210d97d4f109e40233a5845b601-27"></a><span class="sd">     NOTE:Rule No.2:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-28"><code data-line-number="28"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-28" name="rest_code_c3c75fb875784cb688f88c7853acbacd-28"></a><span class="sd">         If the finally clause executes</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-28"><code data-line-number="28"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-28" name="rest_code_e6792210d97d4f109e40233a5845b601-28"></a><span class="sd">         If the finally clause executes</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-29"><code data-line-number="29"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-29" name="rest_code_c3c75fb875784cb688f88c7853acbacd-29"></a><span class="sd">             a return, break or continue</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-29"><code data-line-number="29"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-29" name="rest_code_e6792210d97d4f109e40233a5845b601-29"></a><span class="sd">             a return, break or continue</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-30"><code data-line-number="30"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-30" name="rest_code_c3c75fb875784cb688f88c7853acbacd-30"></a><span class="sd">             statement, that jumps out</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-30"><code data-line-number="30"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-30" name="rest_code_e6792210d97d4f109e40233a5845b601-30"></a><span class="sd">             statement, that jumps out</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-31"><code data-line-number="31"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-31" name="rest_code_c3c75fb875784cb688f88c7853acbacd-31"></a><span class="sd">             of the finally clause, the</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-31"><code data-line-number="31"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-31" name="rest_code_e6792210d97d4f109e40233a5845b601-31"></a><span class="sd">             of the finally clause, the</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-32"><code data-line-number="32"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-32" name="rest_code_c3c75fb875784cb688f88c7853acbacd-32"></a><span class="sd">             saved exception is discarded.</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-32"><code data-line-number="32"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-32" name="rest_code_e6792210d97d4f109e40233a5845b601-32"></a><span class="sd">             saved exception is discarded.</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-33"><code data-line-number="33"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-33" name="rest_code_c3c75fb875784cb688f88c7853acbacd-33"></a><span class="sd">     """</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-33"><code data-line-number="33"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-33" name="rest_code_e6792210d97d4f109e40233a5845b601-33"></a><span class="sd">     """</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-34"><code data-line-number="34"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-34" name="rest_code_c3c75fb875784cb688f88c7853acbacd-34"></a>     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-34"><code data-line-number="34"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-34" name="rest_code_e6792210d97d4f109e40233a5845b601-34"></a>     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-35"><code data-line-number="35"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-35" name="rest_code_c3c75fb875784cb688f88c7853acbacd-35"></a>         <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-35"><code data-line-number="35"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-35" name="rest_code_e6792210d97d4f109e40233a5845b601-35"></a>         <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-36"><code data-line-number="36"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-36" name="rest_code_c3c75fb875784cb688f88c7853acbacd-36"></a>             <span class="mi">1</span><span class="o">/</span><span class="mi">0</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-36"><code data-line-number="36"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-36" name="rest_code_e6792210d97d4f109e40233a5845b601-36"></a>             <span class="mi">1</span><span class="o">/</span><span class="mi">0</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-37"><code data-line-number="37"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-37" name="rest_code_c3c75fb875784cb688f88c7853acbacd-37"></a>         <span class="k">finally</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-37"><code data-line-number="37"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-37" name="rest_code_e6792210d97d4f109e40233a5845b601-37"></a>         <span class="k">finally</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-38"><code data-line-number="38"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-38" name="rest_code_c3c75fb875784cb688f88c7853acbacd-38"></a>             <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-38"><code data-line-number="38"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-38" name="rest_code_e6792210d97d4f109e40233a5845b601-38"></a>             <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-39"><code data-line-number="39"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-39" name="rest_code_c3c75fb875784cb688f88c7853acbacd-39"></a>                 <span class="k">break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-39"><code data-line-number="39"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-39" name="rest_code_e6792210d97d4f109e40233a5845b601-39"></a>                 <span class="k">break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-40"><code data-line-number="40"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-40" name="rest_code_c3c75fb875784cb688f88c7853acbacd-40"></a>             <span class="k">else</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-40"><code data-line-number="40"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-40" name="rest_code_e6792210d97d4f109e40233a5845b601-40"></a>             <span class="k">else</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-41"><code data-line-number="41"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-41" name="rest_code_c3c75fb875784cb688f88c7853acbacd-41"></a>                 <span class="k">continue</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-41"><code data-line-number="41"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-41" name="rest_code_e6792210d97d4f109e40233a5845b601-41"></a>                 <span class="k">continue</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_c3c75fb875784cb688f88c7853acbacd-42"><code data-line-number="42"></code></a></td>
-<td class="code"><code><a id="rest_code_c3c75fb875784cb688f88c7853acbacd-42" name="rest_code_c3c75fb875784cb688f88c7853acbacd-42"></a>     <span class="k">return</span> <span class="n">i</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_e6792210d97d4f109e40233a5845b601-42"><code data-line-number="42"></code></a></td>
+<td class="code"><code><a id="rest_code_e6792210d97d4f109e40233a5845b601-42" name="rest_code_e6792210d97d4f109e40233a5845b601-42"></a>     <span class="k">return</span> <span class="n">i</span>
 </code></td>
 </tr>
 </table></div>
@@ -316,178 +316,178 @@ Thus forgotten or never understood in the first place.</p>
 Functionality of <code class="docutils literal">finally</code> statement can be replicated using <code class="docutils literal">except</code>:</p>
 <div class="code"><table class="codetable">
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-1"><code data-line-number=" 1"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-1" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-1"></a> <span class="k">def</span><span class="w"> </span><span class="nf">equivalence_no1</span><span class="p">():</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-1"><code data-line-number=" 1"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-1" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-1"></a> <span class="k">def</span><span class="w"> </span><span class="nf">equivalence_no1</span><span class="p">():</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-2"><code data-line-number=" 2"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-2" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-2"></a>     <span class="c1"># WITH return/continue/break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-2"><code data-line-number=" 2"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-2" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-2"></a>     <span class="c1"># WITH return/continue/break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-3"><code data-line-number=" 3"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-3" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-3"></a>     <span class="k">if</span> <span class="s1">'finally'</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-3"><code data-line-number=" 3"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-3" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-3"></a>     <span class="k">if</span> <span class="s1">'finally'</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-4"><code data-line-number=" 4"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-4" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-4"></a>         <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-4"><code data-line-number=" 4"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-4" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-4"></a>         <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-5"><code data-line-number=" 5"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-5" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-5"></a>             <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-5"><code data-line-number=" 5"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-5" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-5"></a>             <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-6"><code data-line-number=" 6"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-6" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-6"></a>                 <span class="o">...</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-6"><code data-line-number=" 6"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-6" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-6"></a>                 <span class="o">...</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-7"><code data-line-number=" 7"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-7" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-7"></a>             <span class="k">finally</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-7"><code data-line-number=" 7"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-7" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-7"></a>             <span class="k">finally</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-8"><code data-line-number=" 8"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-8" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-8"></a>                 <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-8"><code data-line-number=" 8"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-8" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-8"></a>                 <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-9"><code data-line-number=" 9"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-9" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-9"></a>                 <span class="k">break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-9"><code data-line-number=" 9"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-9" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-9"></a>                 <span class="k">break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-10"><code data-line-number="10"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-10" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-10"></a>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-10"><code data-line-number="10"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-10" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-10"></a>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-11"><code data-line-number="11"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-11" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-11"></a>     <span class="k">else</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-11"><code data-line-number="11"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-11" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-11"></a>     <span class="k">else</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-12"><code data-line-number="12"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-12" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-12"></a>         <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-12"><code data-line-number="12"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-12" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-12"></a>         <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-13"><code data-line-number="13"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-13" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-13"></a>             <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-13"><code data-line-number="13"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-13" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-13"></a>             <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-14"><code data-line-number="14"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-14" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-14"></a>                 <span class="o">...</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-14"><code data-line-number="14"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-14" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-14"></a>                 <span class="o">...</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-15"><code data-line-number="15"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-15" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-15"></a>             <span class="k">except</span> <span class="ne">BaseException</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-15"><code data-line-number="15"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-15" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-15"></a>             <span class="k">except</span> <span class="ne">BaseException</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-16"><code data-line-number="16"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-16" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-16"></a>                 <span class="k">pass</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-16"><code data-line-number="16"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-16" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-16"></a>                 <span class="k">pass</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-17"><code data-line-number="17"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-17" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-17"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-17"><code data-line-number="17"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-17" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-17"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-18"><code data-line-number="18"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-18" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-18"></a>             <span class="k">break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-18"><code data-line-number="18"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-18" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-18"></a>             <span class="k">break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-19"><code data-line-number="19"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-19" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-19"></a>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-19"><code data-line-number="19"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-19" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-19"></a>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-20"><code data-line-number="20"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-20" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-20"></a> <span class="k">def</span><span class="w"> </span><span class="nf">equivalence_no2</span><span class="p">():</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-20"><code data-line-number="20"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-20" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-20"></a> <span class="k">def</span><span class="w"> </span><span class="nf">equivalence_no2</span><span class="p">():</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-21"><code data-line-number="21"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-21" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-21"></a>     <span class="c1"># WITHOUT return/continue/break</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-21"><code data-line-number="21"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-21" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-21"></a>     <span class="c1"># WITHOUT return/continue/break</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-22"><code data-line-number="22"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-22" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-22"></a>     <span class="k">if</span> <span class="s1">'finally'</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-22"><code data-line-number="22"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-22" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-22"></a>     <span class="k">if</span> <span class="s1">'finally'</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-23"><code data-line-number="23"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-23" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-23"></a>         <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-23"><code data-line-number="23"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-23" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-23"></a>         <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-24"><code data-line-number="24"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-24" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-24"></a>             <span class="o">...</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-24"><code data-line-number="24"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-24" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-24"></a>             <span class="o">...</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-25"><code data-line-number="25"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-25" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-25"></a>         <span class="k">finally</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-25"><code data-line-number="25"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-25" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-25"></a>         <span class="k">finally</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-26"><code data-line-number="26"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-26" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-26"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-26"><code data-line-number="26"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-26" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-26"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-27"><code data-line-number="27"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-27" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-27"></a>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-27"><code data-line-number="27"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-27" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-27"></a>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-28"><code data-line-number="28"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-28" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-28"></a>     <span class="k">else</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-28"><code data-line-number="28"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-28" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-28"></a>     <span class="k">else</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-29"><code data-line-number="29"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-29" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-29"></a>         <span class="k">try</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-29"><code data-line-number="29"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-29" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-29"></a>         <span class="k">try</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-30"><code data-line-number="30"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-30" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-30"></a>             <span class="o">...</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-30"><code data-line-number="30"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-30" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-30"></a>             <span class="o">...</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-31"><code data-line-number="31"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-31" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-31"></a>         <span class="k">except</span> <span class="ne">BaseException</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-31"><code data-line-number="31"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-31" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-31"></a>         <span class="k">except</span> <span class="ne">BaseException</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-32"><code data-line-number="32"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-32" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-32"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-32"><code data-line-number="32"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-32" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-32"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-33"><code data-line-number="33"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-33" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-33"></a>             <span class="k">raise</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-33"><code data-line-number="33"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-33" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-33"></a>             <span class="k">raise</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-34"><code data-line-number="34"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-34" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-34"></a>         <span class="k">else</span><span class="p">:</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-34"><code data-line-number="34"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-34" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-34"></a>         <span class="k">else</span><span class="p">:</span>
 </code></td>
 </tr>
 <tr>
-<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_08089b3feaa3488a82b9eb0517010ccf-35"><code data-line-number="35"></code></a></td>
-<td class="code"><code><a id="rest_code_08089b3feaa3488a82b9eb0517010ccf-35" name="rest_code_08089b3feaa3488a82b9eb0517010ccf-35"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="linenos linenodiv"><a href="posts/pythons-try-finally/#rest_code_3b30075e9c2544fbad5183e5d4fbebb2-35"><code data-line-number="35"></code></a></td>
+<td class="code"><code><a id="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-35" name="rest_code_3b30075e9c2544fbad5183e5d4fbebb2-35"></a>             <span class="n">some_code</span> <span class="o">=</span> <span class="mi">1</span>
 </code></td>
 </tr>
 </table></div>
@@ -501,7 +501,7 @@ I would vote for not. Why?</p>
 <p>Also, big part of motivation in PEP601 for "severe" treatment is easily refuted:</p>
 <ol class="arabic simple">
 <li><p>Zen of Python applications can be refuted using other lines of the same Zen.</p></li>
-<li><p>List of programming languages that deal with it were used as supporting evidence, while the fact that 3/4 of those languages left it to be handled by linters.</p></li>
+<li><p>List of programming languages that deal with it were used as supporting evidence, while 3/4 of those languages left it to be handled by linters.</p></li>
 <li><p>Making code more clear and similar only applies given the ignorance about 2 simple rules of <code class="docutils literal">finally</code> statement.</p></li>
 </ol>
 <p>There is no denial that there are valid reasons why this got so much attention.
