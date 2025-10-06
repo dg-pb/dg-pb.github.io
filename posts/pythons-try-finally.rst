@@ -21,6 +21,8 @@ This post is meant to explain how current mechanics work in as simple as possibl
 
 There are only 2 rules:
 
+.. listing:: tryfinally.py python
+
 .. code-block:: python
    :number-lines:
 
@@ -31,7 +33,7 @@ There are only 2 rules:
             The return value of a function is
                 determined by the last return
                 statement executed.
-            Since the finally clause always
+            Since finally clause always
                 executes, a return statement
                 executed in the finally clause
                 will always be the last one
