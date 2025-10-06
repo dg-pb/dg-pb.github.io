@@ -70,4 +70,4 @@ There are only 2 rules:
 
 And that is pretty much all that there is.
 
-So does it need to be deprecated?
+So does usage of No. 2 need to be deprecated?
