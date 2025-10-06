@@ -19,11 +19,6 @@ And the last new update regarding this is that issuing a warning might be proble
 
 This post is meant to explain how current mechanics work in as simple as possible manner.
 
-In short, I have found that things are not as complicated or even as tricky in comparison to the impression that I got by reading a PEP and discourse conversations.
-
-And, in my opinion, the issue is rather the fact that some nuances are rarely needed.
-Thus forgotten or never understood in the first place.
-
 There are only 2 rules:
 
 .. code-block:: python
@@ -74,60 +69,5 @@ There are only 2 rules:
 
 
 And that is pretty much all that there is.
-And yes, ``finally`` can be expressed using ``except BaseException``.
-But once ``finally`` is understood, ``except BaseException`` starts feeling like a hack to do what ``finally`` does, not the other way round.
-See below.
 
-So does it need to be deprecated? Or is even issuing a warning needed?
-
-1. Design, although has not been frequently used, is elegant and logical.
-2. Faulty usage can be addressed by stronger emphasis and education.
-3. It is possible that with more education and time it will be picked up and used more often. In the right way.
-
-There is no denial that there are valid reasons why this got so much attention - people have been making mistake and this hasn't been addressed for a long time - thus, there is some damage.
-But I haven't yet seen any convincing evidence of why education and linter handling is insufficient.
-
-
----
-
-
-``finally`` vs ``except BaseException``:
-
-.. code-block:: python
-   :number-lines:
-
-    def equivalence_no1():
-        # WITH return/continue/break
-        if 'finally':
-            while 1:
-                try:
-                    ...
-                finally:
-                    some_code = 1
-                    break
-
-        else:
-            while 1:
-                try:
-                    ...
-                except BaseException:
-                    pass
-                some_code = 1
-                break
-
-    def equivalence_no2():
-        # WITHOUT return/continue/break
-        if 'finally':
-            try:
-                ...
-            finally:
-                some_code = 1
-
-        else:
-            try:
-                ...
-            except BaseException:
-                some_code = 1
-                raise
-            else:
-                some_code = 1
+So does it need to be deprecated?
