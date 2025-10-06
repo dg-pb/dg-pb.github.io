@@ -36,6 +36,7 @@ Send feedback to info@getnikola.com!
 .. code-block:: python
     :number-lines:
     :emphasize-lines: 3,5
+
     line1 = 1
     line2 = 2
     line3 = 3
