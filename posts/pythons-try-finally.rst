@@ -21,10 +21,7 @@ This post is meant to explain how current mechanics work in as simple as possibl
 
 There are only 2 rules:
 
-.. listing:: tryfinally.py python
-
 .. code-block:: python
-   :number-lines:
 
     @lambda f: print(f())  # 2
     def finally1():

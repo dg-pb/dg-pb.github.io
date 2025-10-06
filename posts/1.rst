@@ -27,5 +27,17 @@ Next steps:
 Send feedback to info@getnikola.com!
 
 .. math::
+    \int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C
 
-   \int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C
+.. listing:: hello.py python
+    :start-line: 6
+    :end-line: 8
+
+.. code-block:: python
+    :number-lines:
+    :emphasize-lines: 3,5
+    line1 = 1
+    line2 = 2
+    line3 = 3
+    line4 = 4
+    line5 = 5
