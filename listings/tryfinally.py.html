@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="tryfinally.py">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tryfinally.py | Things I Share</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
+<link rel="canonical" href="https://dg-pb.github.io/listings/tryfinally.py.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
+
+            <span id="blog-title">Things I Share</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav"></ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../archive.html" class="nav-link">Archive</a>
+                </li>
+<li class="nav-item">
+<a href="../categories/" class="nav-link">Tags</a>
+                </li>
+<li class="nav-item">
+<a href="../rss.xml" class="nav-link">RSS feed</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+
+<nav class="breadcrumbs"><ul class="breadcrumb">
+<li class="breadcrumb-item"><a href=".">listings</a></li>
+                <li class="breadcrumb-item active">tryfinally.py</li>
+</ul></nav><h1>tryfinally.py
+        <small><a href="tryfinally.py">(Source)</a></small>
+    </h1>
+    <div class="code"><table class="codetable">
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-1"><code data-line-number=" 1"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-1" name="listingstryfinallypy-1"></a><span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>  <span class="c1"># 2</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-2"><code data-line-number=" 2"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-2" name="listingstryfinallypy-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">finally1</span><span class="p">():</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-3"><code data-line-number=" 3"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-3" name="listingstryfinallypy-3"></a><span class="w">    </span><span class="sd">"""</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-4"><code data-line-number=" 4"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-4" name="listingstryfinallypy-4"></a><span class="sd">    NOTE:Rule No.1:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-5"><code data-line-number=" 5"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-5" name="listingstryfinallypy-5"></a><span class="sd">        The return value of a function is</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-6"><code data-line-number=" 6"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-6" name="listingstryfinallypy-6"></a><span class="sd">            determined by the last return</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-7"><code data-line-number=" 7"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-7" name="listingstryfinallypy-7"></a><span class="sd">            statement executed.</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-8"><code data-line-number=" 8"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-8" name="listingstryfinallypy-8"></a><span class="sd">        Since finally clause always</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-9"><code data-line-number=" 9"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-9" name="listingstryfinallypy-9"></a><span class="sd">            executes, a return statement</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-10"><code data-line-number="10"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-10" name="listingstryfinallypy-10"></a><span class="sd">            executed in the finally clause</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-11"><code data-line-number="11"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-11" name="listingstryfinallypy-11"></a><span class="sd">            will always be the last one</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-12"><code data-line-number="12"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-12" name="listingstryfinallypy-12"></a><span class="sd">            executed.</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-13"><code data-line-number="13"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-13" name="listingstryfinallypy-13"></a><span class="sd">    """</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-14"><code data-line-number="14"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-14" name="listingstryfinallypy-14"></a>    <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-15"><code data-line-number="15"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-15" name="listingstryfinallypy-15"></a>        <span class="k">try</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-16"><code data-line-number="16"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-16" name="listingstryfinallypy-16"></a>            <span class="k">try</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-17"><code data-line-number="17"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-17" name="listingstryfinallypy-17"></a>                <span class="k">return</span> <span class="mi">0</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-18"><code data-line-number="18"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-18" name="listingstryfinallypy-18"></a>            <span class="k">finally</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-19"><code data-line-number="19"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-19" name="listingstryfinallypy-19"></a>                <span class="k">return</span> <span class="mi">1</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-20"><code data-line-number="20"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-20" name="listingstryfinallypy-20"></a>        <span class="k">finally</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-21"><code data-line-number="21"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-21" name="listingstryfinallypy-21"></a>            <span class="k">break</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-22"><code data-line-number="22"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-22" name="listingstryfinallypy-22"></a>    <span class="k">return</span> <span class="mi">2</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-23"><code data-line-number="23"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-23" name="listingstryfinallypy-23"></a>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-24"><code data-line-number="24"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-24" name="listingstryfinallypy-24"></a><span class="nd">@lambda</span> <span class="n">f</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">())</span>   <span class="c1"># 6 (no error)</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-25"><code data-line-number="25"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-25" name="listingstryfinallypy-25"></a><span class="k">def</span><span class="w"> </span><span class="nf">finally2</span><span class="p">():</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-26"><code data-line-number="26"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-26" name="listingstryfinallypy-26"></a><span class="w">    </span><span class="sd">"""</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-27"><code data-line-number="27"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-27" name="listingstryfinallypy-27"></a><span class="sd">    NOTE:Rule No.2:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-28"><code data-line-number="28"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-28" name="listingstryfinallypy-28"></a><span class="sd">        If the finally clause executes</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-29"><code data-line-number="29"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-29" name="listingstryfinallypy-29"></a><span class="sd">            a return, break or continue</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-30"><code data-line-number="30"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-30" name="listingstryfinallypy-30"></a><span class="sd">            statement, that jumps out</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-31"><code data-line-number="31"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-31" name="listingstryfinallypy-31"></a><span class="sd">            of the finally clause, the</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-32"><code data-line-number="32"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-32" name="listingstryfinallypy-32"></a><span class="sd">            saved exception is discarded.</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-33"><code data-line-number="33"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-33" name="listingstryfinallypy-33"></a><span class="sd">    """</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-34"><code data-line-number="34"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-34" name="listingstryfinallypy-34"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-35"><code data-line-number="35"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-35" name="listingstryfinallypy-35"></a>        <span class="k">try</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-36"><code data-line-number="36"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-36" name="listingstryfinallypy-36"></a>            <span class="mi">1</span><span class="o">/</span><span class="mi">0</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-37"><code data-line-number="37"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-37" name="listingstryfinallypy-37"></a>        <span class="k">finally</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-38"><code data-line-number="38"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-38" name="listingstryfinallypy-38"></a>            <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-39"><code data-line-number="39"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-39" name="listingstryfinallypy-39"></a>                <span class="k">break</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-40"><code data-line-number="40"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-40" name="listingstryfinallypy-40"></a>            <span class="k">else</span><span class="p">:</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-41"><code data-line-number="41"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-41" name="listingstryfinallypy-41"></a>                <span class="k">continue</span>
+</code></td>
+</tr>
+<tr>
+<td class="linenos linenodiv"><a href="#listingstryfinallypy-42"><code data-line-number="42"></code></a></td>
+<td class="code"><code><a id="listingstryfinallypy-42" name="listingstryfinallypy-42"></a>    <span class="k">return</span> <span class="n">i</span>
+</code></td>
+</tr>
+</table></div>
+
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2025         <a href="mailto:digpob@gmail.com">dg-pb</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
