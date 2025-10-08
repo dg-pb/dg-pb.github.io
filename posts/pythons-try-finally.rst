@@ -19,10 +19,8 @@ Beyond its basic function, there are 2 rules to know:
                 determined by the last return
                 statement executed.
             Since finally clause always
-                executes, a return statement
-                executed in the finally clause
-                will always be the last one
-                executed.
+                executes, there can be many return
+                statements executed.
         """
         while 1:
             try:
