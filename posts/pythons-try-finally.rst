@@ -20,7 +20,7 @@ Beyond its basic function, there are 2 rules to know:
                 statement executed.
             Since finally clause always
                 executes, there can be many return
-                statements executed.
+                statement executions.
         """
         while 1:
             try:
