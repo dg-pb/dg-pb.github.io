@@ -53,6 +53,3 @@ Beyond its basic function, there are 2 rules to know:
                 else:
                     continue
         return i
-
-
-And that is pretty much all that there is.
