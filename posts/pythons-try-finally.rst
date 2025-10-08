@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-There are only 2 rules:
+Beyond its basic function, there are 2 rules to know:
 
 .. code-block:: python
 
